@@ -18,3 +18,18 @@ when the window is resized.
 
 Session log: `RUST_LOG=debug neon-rain 2>neon-rain.log` (start, every key
 and resize, lightning, a snapshot each second).
+
+## Play
+
+With [av](https://asciiverse.sh), the Asciiverse client:
+
+```
+av install neon-rain
+av play neon-rain
+```
+
+Or download the archive for your system from this repository's Releases,
+unpack it and run `./neon-rain` (`neon-rain.exe` on Windows).
+
+To build it yourself: `cargo run --release`.
+
