@@ -28,8 +28,5 @@ av install neon-rain
 av play neon-rain
 ```
 
-Or download the archive for your system from this repository's Releases,
-unpack it and run `./neon-rain` (`neon-rain.exe` on Windows).
-
 To build it yourself: `cargo run --release`.
 
